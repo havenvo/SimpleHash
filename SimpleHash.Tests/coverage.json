@@ -1,0 +1,105 @@
+{
+  "SimpleHash.dll": {
+    "E:\\workspace\\training\\bk\\unit-testing\\simple-hash\\SimpleHash\\PasswordEncryption.cs": {
+      "SimpleHash.PasswordEncryption": {
+        "System.String SimpleHash.PasswordEncryption::GetHash(System.String)": {
+          "Lines": {
+            "12": 35,
+            "13": 35,
+            "14": 35,
+            "15": 35,
+            "16": 35
+          },
+          "Branches": []
+        },
+        "System.ValueTuple`2<System.String,System.String> SimpleHash.PasswordEncryption::HashPassword(System.String)": {
+          "Lines": {
+            "19": 2,
+            "20": 2,
+            "21": 2,
+            "23": 2,
+            "24": 20,
+            "25": 18,
+            "26": 18,
+            "27": 18,
+            "28": 18,
+            "29": 2,
+            "30": 2
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 65,
+              "EndOffset": 38,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 18
+            },
+            {
+              "Line": 24,
+              "Offset": 65,
+              "EndOffset": 67,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.String SimpleHash.PasswordEncryption::GenerateSalt()": {
+          "Lines": {
+            "33": 2,
+            "34": 2,
+            "35": 2,
+            "36": 2,
+            "37": 2,
+            "38": 2
+          },
+          "Branches": []
+        },
+        "System.Boolean SimpleHash.PasswordEncryption::Verify(System.String,System.String,System.String)": {
+          "Lines": {
+            "41": 1,
+            "42": 1,
+            "43": 1,
+            "44": 10,
+            "45": 9,
+            "46": 9,
+            "47": 9,
+            "48": 9,
+            "49": 1,
+            "50": 1
+          },
+          "Branches": [
+            {
+              "Line": 44,
+              "Offset": 52,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 9
+            },
+            {
+              "Line": 44,
+              "Offset": 52,
+              "EndOffset": 54,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "E:\\workspace\\training\\bk\\unit-testing\\simple-hash\\SimpleHash\\Program.cs": {
+      "SimpleHash.Program": {
+        "System.Void SimpleHash.Program::Main(System.String[])": {
+          "Lines": {
+            "8": 0,
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
